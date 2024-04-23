@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+
+#container {
+  background-color: aquamarine;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid blue;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#container div {
+  width: 200px;
+  height: 200px;
+}
