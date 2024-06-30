@@ -37,15 +37,36 @@
 //   console.log("A");
 // }
 
-const password = prompt("buat password");
+// const password = prompt("buat password");
 
 // Password harus sepanjang 6 karakter
-if (password.length >= 6) {
-  if (password.indexOf(" ") === -1) {
-    console.log("Password valid");
-  } else {
-    console.log("password tidak boleh ada spasi");
-  }
-} else {
-  console.log("Password minimal 6 karakter");
-}
+// if (password.length >= 6) {
+//   if (password.indexOf(" ") === -1) {
+//     console.log("Password valid");
+//   } else {
+//     console.log("password tidak boleh ada spasi");
+//   }
+// } else {
+//   console.log("Password minimal 6 karakter");
+// }
+
+// if (password.length >= 6 && password.indexOf(" ") === -1) {
+//   console.log("Password Valid");
+// } else {
+//   console.log("Password tidak memenuhi syarat");
+// }
+
+// const role = prompt("masukan role akun");
+
+// if (role === "admin" || role === "svn") {
+//   console.log("boleh mengaksesnya");
+// } else {
+//   console.log("akses ditolak");
+// }
+
+// function nyanyi() {
+//   console.log("Cek....");
+//   console.log("Do re mi..");
+// }
+
+// nyanyi();
